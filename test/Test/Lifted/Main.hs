@@ -35,7 +35,7 @@ myRemoteTable :: RemoteTable
 myRemoteTable = Test.Program.Closure.__remoteTable $ sessionRemoteTable initRemoteTable
 
 newNode p = do
-  Right t <- createTransport "127.0.0.1" (show p) defaultTCPParameters
+  Right t <- createTransport "127.0.0.1" (show p) (\sn -> ("127.0.0.1", sn)) defaultTCPParameters
   newLocalNode t myRemoteTable
 
 test_call :: NodeId -> Process Int

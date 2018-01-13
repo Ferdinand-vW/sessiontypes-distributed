@@ -1,4 +1,5 @@
 {-# LANGUAGE RebindableSyntax #-}
+{-# OPTIONS_GHC -Wno-simplifiable-class-constraints #-}
 -- | In this module we lift all functions in "Control.Distributed.Process" that return a function of type Process a to Session s s a.
 --
 -- Since the functions in this module work identical to the ones in "Control.Distributed.Process" we will refer to that module for documentation.

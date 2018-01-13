@@ -1,4 +1,5 @@
 {-# LANGUAGE DataKinds #-}
+{-# OPTIONS_GHC -Wno-simplifiable-class-constraints #-}
 -- | This module provides three functions for normalizing session typed programs.
 --
 -- With normalizing we mean that we apply rewrites to a session typed program until we can no longer do so

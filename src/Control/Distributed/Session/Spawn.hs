@@ -1,3 +1,4 @@
+{-# OPTIONS_GHC -Wno-simplifiable-class-constraints #-}
 -- | Defines several combinators for spawning sessions
 --
 -- Here we define a session to be two dual `Session`s that together implement a protocol described by a session type.

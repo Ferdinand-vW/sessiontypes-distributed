@@ -1,3 +1,7 @@
+2017-01-13  Ferdinand van Walree 0.1.1
+* Upgraded to LTS 10.3
+* Suppressed warning 'simplifiable-class-constraints'
+
 2017-09-30  Ferdinand van Walree 0.1.0
 
 * Initial release.
